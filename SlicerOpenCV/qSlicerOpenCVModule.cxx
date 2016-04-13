@@ -125,3 +125,9 @@ bool qSlicerOpenCVModule::isHidden()const
 {
   return true;
 }
+
+//-----------------------------------------------------------------------------
+QStringList qSlicerOpenCVModule::associatedNodeTypes() const
+{
+  return QStringList();
+}
